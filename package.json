@@ -9,6 +9,8 @@
   "keywords": [
     "elevenlabs",
     "elevenlabs-js",
+    "elevenlabs api",
+    "elevenlabs node",
     "elevenlabsjs",
     "text to speech nodejs",
     "text to speech",
@@ -23,7 +25,9 @@
     "ai tts api",
     "ai tts nodejs",
     "ai voice api",
-    "ai voice nodejs"
+    "ai voice nodejs",
+    "voice clone",
+    "voice clone ai"
   ],
   "bugs": {
     "url": "https://github.com/ArdaGnsrn/elevenlabs-js/issues",
