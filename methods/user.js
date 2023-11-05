@@ -9,7 +9,6 @@ async function getUser() {
 }
 
 
-
 module.exports = {
     getUserSubscription,
     getUser
