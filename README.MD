@@ -1,6 +1,21 @@
-# NodeJS Package for ElevenLabs.io API
+ElevenLabs.io API for NodeJS
+============
+[![npm version](https://badge.fury.io/js/elevenlabs-js.svg)](https://badge.fury.io/js/elevenlabs-js)
+[![GitHub Stars](https://img.shields.io/github/stars/ardagnsrn/elevenlabs-js.svg)](https://github.com/ardagnsrn/elevenlabs-js/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/ardagnsrn/elevenlabs-js.svg)](https://github.com/ardagnsrn/elevenlabs-js/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Unofficial Node.js API for interacting with the elevenlabs.io API.
+This is an Open Source NodeJS package for [elevenlabs.io](https://elevenlabs.io) Text to Speech API. You can
+find the Official API document here: [https://api.elevenlabs.io/docs](https://api.elevenlabs.io/docs)
+
+---
+## Buy me a coffee
+
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+
+<a href="https://www.buymeacoffee.com/ardagnsrn" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+---
 
 ## Supported Methods
 
@@ -15,7 +30,7 @@ Unofficial Node.js API for interacting with the elevenlabs.io API.
 - `deleteVoice(voiceId)`
 - `editVoiceSettings(voiceId, voiceSettings)`
 - ~~`addVoice()`~~ (Soon)
-- ~~`editVoice()`~~ (Soon) 
+- ~~`editVoice()`~~ (Soon)
 
 ## Parameters
 
@@ -47,7 +62,7 @@ const {createWriteStream} = require("fs");
     // Save the audio file
     await response.saveFile('hello-world.mp3');
 
-    // Or get pipe data
+    // Or you can use pipe directly
     const data = response.pipe(createWriteStream("test.mp3"));
 })();
 ```

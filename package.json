@@ -1,14 +1,37 @@
 {
   "name": "elevenlabs-js",
-  "version": "1.0.0",
-  "description": "UnOfficial ElevenLabs API for NodeJS",
+  "version": "1.0.1",
+  "description": "This is an Open Source NodeJS package for ElevenLabs Text to Speech API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "ArdaGnsrn",
-  "license": "ISC",
+  "keywords": [
+    "elevenlabs",
+    "elevenlabs-js",
+    "elevenlabsjs",
+    "text to speech nodejs",
+    "text to speech",
+    "text to speech api",
+    "text to speech elevenlabs",
+    "tts",
+    "tts api",
+    "tts nodejs",
+    "tts elevenlabs",
+    "ai elevenlabs",
+    "ai voice",
+    "ai tts api",
+    "ai tts nodejs",
+    "ai voice api",
+    "ai voice nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/ArdaGnsrn/elevenlabs-js/issues",
+    "email": "info@ardagunsuren.com"
+  },
+  "homepage": "https://github.com/ArdaGnsrn/elevenlabs-js#readme",
+  "author": "Arda Günsüren",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",
     "fs": "^0.0.1-security"
