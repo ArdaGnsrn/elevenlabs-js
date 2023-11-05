@@ -1,5 +1,3 @@
-class Storage {
+module.exports = class Storage {
     static apiKey = "";
 }
-
-module.exports = Storage;
