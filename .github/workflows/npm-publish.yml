@@ -1,6 +1,5 @@
 name: Auto Publish NPM
-on:
-  workflow_dispatch:
+on: push
 jobs:
   publish:
     name: Build, bump & publish to npm
