@@ -1,6 +1,6 @@
 const API = require("../utils/API");
 
-async function getUserSubscriptionInfo() {
+async function getUserSubscription() {
     return await API.request("GET", "/user/subscriptions");
 }
 
@@ -11,6 +11,6 @@ async function getUser() {
 
 
 module.exports = {
-    getUserSubscriptionInfo,
+    getUserSubscription,
     getUser
 }

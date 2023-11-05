@@ -35,4 +35,6 @@ function saveFile(response) {
 }
 
 
-module.exports = textToSpeech
+module.exports = {
+    textToSpeech
+}
