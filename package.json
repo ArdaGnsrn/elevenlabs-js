@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "ArdaGnsrn",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.6.0",
+    "fs": "^0.0.1-security"
+  }
 }
