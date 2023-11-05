@@ -47,8 +47,8 @@ const {createWriteStream} = require("fs");
     // Save the audio file
     await response.saveFile('hello-world.mp3');
 
-    // Or get raw data
-    const data = response.raw(createWriteStream("test.mp3"));
+    // Or get pipe data
+    const data = response.pipe(createWriteStream("test.mp3"));
 })();
 ```
 

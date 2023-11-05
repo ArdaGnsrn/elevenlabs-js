@@ -16,7 +16,7 @@ async function textToSpeech(voiceId, text, modelId = "eleven_multilingual_v2", v
     });
     return {
         saveFile: saveFile(response),
-        raw: response.pipe
+        pipe: response.pipe
     }
 }
 
