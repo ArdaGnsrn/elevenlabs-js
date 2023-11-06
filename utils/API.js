@@ -16,7 +16,7 @@ async function request(method, url, options = {}) {
             },
         })).data;
     } catch (e) {
-        console.error("HATA:", e.response.status, e.response.statusText);
+        console.error("Exception", e)
         throw e;
     }
 }

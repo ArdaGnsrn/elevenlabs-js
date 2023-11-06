@@ -14,9 +14,9 @@ async function getVoiceSettings(voiceId) {
 }
 
 async function getVoice(voiceId, withSettings = false) {
-    return await API.request("GET", `/voices/${voiceId}`, {
+    return API.request("GET", `/voices/${voiceId}`, {
         params: {
-            withSettings
+            with_settings: withSettings
         }
     });
 }
