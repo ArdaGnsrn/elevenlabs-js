@@ -3,6 +3,7 @@ ElevenLabs.io API for NodeJS
 [![npm version](https://badge.fury.io/js/elevenlabs-js.svg)](https://badge.fury.io/js/elevenlabs-js)
 [![GitHub Stars](https://img.shields.io/github/stars/ardagnsrn/elevenlabs-js.svg)](https://github.com/ardagnsrn/elevenlabs-js/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/ardagnsrn/elevenlabs-js.svg)](https://github.com/ardagnsrn/elevenlabs-js/issues)
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg?logo=jest)](https://github.com/jestjs/jest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is an Open Source NodeJS package for [elevenlabs.io](https://elevenlabs.io) Text to Speech API. You can
