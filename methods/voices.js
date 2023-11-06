@@ -2,15 +2,15 @@ const API = require("../utils/API");
 const {defaultVoiceSettings} = require("../config");
 
 async function getVoices() {
-    return await API.request("GET", "/voices");
+    return (await API.request("GET", "/voices"))['voices'];
 }
 
 async function getDefaultVoiceSettings() {
-    return await API.request("GET", "/voices/settings/default");
+    return API.request("GET", "/voices/settings/default");
 }
 
 async function getVoiceSettings(voiceId) {
-    return await API.request("GET", `/voices/${voiceId}/settings`);
+    return API.request("GET", `/voices/${voiceId}/settings`);
 }
 
 async function getVoice(voiceId, withSettings = false) {
@@ -22,11 +22,11 @@ async function getVoice(voiceId, withSettings = false) {
 }
 
 async function deleteVoice(voiceId) {
-    return await API.request("DELETE", `/voices/${voiceId}/settings`);
+    return API.request("DELETE", `/voices/${voiceId}/settings`);
 }
 
 async function editVoiceSettings(voiceId, voiceSettings = defaultVoiceSettings) {
-    return await API.request("POST", `/voices/${voiceId}/settings`, {
+    return API.request("POST", `/voices/${voiceId}/settings`, {
         data: voiceSettings
     });
 }

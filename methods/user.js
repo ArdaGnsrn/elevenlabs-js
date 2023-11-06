@@ -1,11 +1,11 @@
 const API = require("../utils/API");
 
 async function getUserSubscription() {
-    return await API.request("GET", "/user/subscriptions");
+    return API.request("GET", "/user/subscription");
 }
 
 async function getUser() {
-    return await API.request("GET", "/user");
+    return API.request("GET", "/user");
 }
 
 
