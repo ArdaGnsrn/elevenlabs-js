@@ -14,16 +14,12 @@ find the Official API document here: [https://api.elevenlabs.io/docs](https://ap
 project. And who knows, I may be more inclined to improve it further.*\
 ⭐⭐
 
----
-
 ## Buy me a coffee
 
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying
 me a coffee, so I can dedicate more time on open-source projects like this :)
 
 <a href="https://www.buymeacoffee.com/ardagnsrn" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
----
 
 ## Table of Contents
 
@@ -43,8 +39,6 @@ me a coffee, so I can dedicate more time on open-source projects like this :)
   - [getUserSubscription() Method](#getusersubscription-method)
   - [getUser() Method](#getuser-method)
 - [License](#license)
-
----
 
 ## Supported Methods
 
