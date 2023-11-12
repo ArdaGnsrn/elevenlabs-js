@@ -1,3 +1,5 @@
+![elevenlabs-js](https://raw.githubusercontent.com/ardagnsrn/elevenlabs-js/master/banner.png)
+
 ElevenLabs.io API for NodeJS
 ============
 [![npm version](https://badge.fury.io/js/elevenlabs-js.svg)](https://badge.fury.io/js/elevenlabs-js)
