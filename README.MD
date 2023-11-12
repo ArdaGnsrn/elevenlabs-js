@@ -40,6 +40,7 @@ me a coffee, so I can dedicate more time on open-source projects like this :)
   - [editVoiceSettings() Method](#editvoicesettings-method)
   - [getUserSubscription() Method](#getusersubscription-method)
   - [getUser() Method](#getuser-method)
+- [Other Languages](#other-languages)
 - [License](#license)
 
 ## Supported Methods
@@ -229,6 +230,10 @@ elevenLabs.getUser().then((res) => {
     console.log("user", res);
 });
 ```
+## Other Languages
+Also, you can find the other languages of this package here:
+- [ElevenLabs API For NodeJS (elevenlabs-js)](https://github.com/ArdaGnsrn/elevenlabs-js)
+- [ElevenLabs API For PHP Laravel (elevenlabs-laravel)](https://github.com/ArdaGnsrn/elevenlabs-laravel)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
